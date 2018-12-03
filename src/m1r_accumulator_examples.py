@@ -5,12 +5,12 @@ This module demonstrates the ACCUMULATOR pattern in three classic forms:
    IN GRAPHICS:   x = x + pixels
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Aaron Wilkin, their colleagues, and Yifan Dai.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   RUN this program, then READ its code.
 #     Then answer the following, GETTING HELP AS NEED!  (Ask questions!!!)
 #     Write your answers in any reasonable way (your choice).
@@ -28,23 +28,23 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #
 #            for k in range(r - 1):
 #            for k in range(r):
-#            for k in range(r + 1):
+#            for k in range(r + 1): this
 #
 #     b. If you want a loop that runs from 0 to s, inclusive,
 #          what expression would you use in the _____ below?
 #
-#            for k in range(_____):
+#            for k in range(s):
 #
 #     c. If you want a loop that runs from r to s, inclusive, assuming s >= r,
 #          what expression would you use in the _____ below?
 #
-#            for k in range(_____):
+#            for k in range(s - r):
 #
 #     d. If you want a loop that runs from (r + 4) to (s - 10),
 #          including the (r + 4) but not including the (s - 10),
 #          what expression would you use in the _____ below?
 #
-#            for k in range(_____):
+#            for k in range(s - r - 14):
 #
 #     e. The following code snippet attempts to return the number
 #          of integers from r to s, inclusive, whose cosines are positive.
@@ -59,6 +59,8 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #     f. The code in the "graphics accumulation" example below includes:
 #            for _ in range(n):
 #        What does the   _   (underscore) mean?
+#      it means vairable.
+
 #
 #     g. The code in the "graphics accumulation" example below includes:
 #
@@ -80,7 +82,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #                  circle = rg.Circle(point, radius)
 #                  circle.attach_to(window)
 #
-#              x = starting_point.x
+#              x = starting_point.x (this one is wrong)
 #              for k in range(n):
 #                  center = rg.Point(x + (k * diameter), y)
 #                  circle = rg.Circle(point, radius)
